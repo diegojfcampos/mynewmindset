@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HTML TAGS
 <!-- Comment / Comentario --> 
 <p> paragraphy </p>
@@ -84,4 +85,92 @@ CSS Style - <link rel="stylesheet" type="text/css" href="css/style.css">
 
     .endereco {
         font-family: Helvetica;
+=======
+HTML TAGS
+<!-- Comment / Comentario --> 
+<p> paragraphy </p>
+<br> - Quebra de linha<br> (não precisa fechar)
+<h1 to h6>Titles</h1 to h6>
+<b> bold(Negrito) </b>
+<s> stronger - mais importancia, enfase, uso de voz para deficiences visuais - BROWSER DE VOZ</s> 
+<i> italic </i>
+<em> Enfase especial, indice mair de destaque que o itálico - BROWSER DE VOZ</em>
+
+Litas
+<ol> Ordered List- Ordenada </ol> exemple: 1,2,3,4,5
+    <ol reversed> 
+    <ol start="5"> 
+
+<ul> Not Ordered List - Não ordenada</ul> exemple: °,°,°,°,°,°
+<il> Definitions - List Itens</l>
+
+<dl>Definition List</dl>
+    <dt>.html</dt>  #Term
+        <dd> .html is a Hypertext Markup Language </dd> #Definition </dd>
+</dl>
+
+<pre> 
+    pré formated text, mant 'em as formatoções da forma escrita no codigo ou o codigo em si 
+</pre> 
+
+<a> hyperlink </a>
+    #<a href="https://github.com/diegojfcampos" target="_blank"><img src='img/github.png' width="30px"></a>
+
+<img src="link">
+    <img src='img/diego j f campos.jpg' class="img_padrao">
+
+    or <a href="mailto:diegojfcampos@gmail.com"><img src='img/e-mail.png' width="30px"></a>  
+                    mailto: atalho pata e-mail    
+
+    or <img src='img/diego j f campos.jpg'>
+
+    or <img src='img/diego j f campos.jpg' width:"100px" height= "30px" alt= " Diego J F Campos">
+                alt = "Destaque SEO (Search Optimzation)"
+
+Estilos
+    <style"color:blue">                                                             #Inline Style 
+    
+    or at head      <sytle>                                                                                                                                         
+                        h1{color: aqua}                                             #Internal Sytle
+                    </style>
+
+    or CSS -  <link rel="stylesheet" type="text/css" href="css/style.css">          #External Style
+
+
+& Add Special Caracteres
+&nbsp (unbreakable space) - não deixa a página quebrar e acrescenta espaços entre as palavras.
+
+CSS Style - <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 1em; or font-size: .9em;
+    letter-spacing: .15em;
+    background: #4499FF;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    display: block;
+    padding: 10px; or padding: 10px 0;
+    width: 100%;
+    height: 30px;
+    border: 0 ;   
+    margin: 15px 0;
+
+    Acessing Models
+
+    <p class="Endereço"> - (Especifics paragraphy changes for exemplo)
+    
+    p {
+        font-size: 18px;
+    }
+
+    p.nameclass {
+        color: #FFF;
+        }
+
+    .endereco {
+        font-family: Helvetica;
+>>>>>>> Git foulder fix
     }
